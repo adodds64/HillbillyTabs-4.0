@@ -1,7 +1,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script> 
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script> 
-<script type="text/javascript" src="../SiteAssets/jquery.HillbillyTabs.4.js"></script> 
+<script type="text/javascript" src="/SiteAssets/Scripts/jquery.HillbillyTabs.4.js"></script> 
 
 <link  type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/start/jquery-ui.css" /> 
 
@@ -13,7 +13,7 @@
 
 	/************************************************************************************* */
 	// This example places all web parts in the same zone into tabs
-		$().HillbillyTabs();
+		$().HillbillyTabs()
     /*************************************************************************************** */
 
 	/************************************************************************************* */
@@ -83,5 +83,6 @@
 	
 	/*************************************************************************************** */
 
-	});
+	}
+	 );
 </script>
